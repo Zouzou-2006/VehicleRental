@@ -78,7 +78,7 @@ public class CVehicleFinal {
 			// Build SQL query
 			strSelect = "SELECT intLocationID, strName, strAddress, strCity, strZip " +
 					"FROM TLocations " +
-					"ORDER BY strName";
+					"ORDER BY intLocationID";
 
 			// Execute query
 			sqlCommand = m_conAdministrator.createStatement();
